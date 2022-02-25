@@ -16,7 +16,8 @@ body {
 
 @media screen and (max-width:600px) {
     .pic>img {
-        width: 100%;
+        width: 90%;
+        padding-left: 5.5%;
     }
 }
 
@@ -65,14 +66,42 @@ a {
     font-family: Raleway, Arial, sans-serif;
 }
 
-.row-h5 {
+@media screen and (max-width:600px) {
+    .h1 {
+        font-size: 32px;
+        color: #ffffff;
+        padding-right: 10%;
+        font-weight: lighter;
+        font-family: Raleway, Arial, sans-serif;
+    }
+}
+
+.h3 {
+    font-size: 21px;
     color: #3d9f96;
-    padding-left: 2%;
+    padding-right: 12%;
     font-weight: normal;
+}
+
+@media screen and (max-width:600px) {
+    .h3 {
+        font-size: 17px;
+        color: #3d9f96;
+        padding-left: 2%;
+        font-weight: normal;
+    }
 }
 
 .row-p {
     font-size: 22px;
+}
+
+@media screen and (max-width:600px) {
+    .row-p>p {
+        font-size: 16px;
+        padding: 0 10% 0 10%;
+        color: #ffffff !important;
+    }
 }
 
 .btn {
@@ -81,6 +110,16 @@ a {
     margin-top: 20%;
     margin-bottom: 30%;
     border-radius: 30px;
+}
+
+@media screen and (max-width:600px) {
+    .btn {
+        width: 150%;
+        padding: 5%;
+        border-radius: 30px;
+        text-transform: uppercase;
+        margin: 20px 0px 30px -30px;
+    }
 }
 
 .btn-success {
@@ -92,17 +131,27 @@ a {
     margin-bottom: -3.5%;
 }
 
+@media screen and (max-width:600px) {
+    .img>img {
+        width: 100%;
+        padding-right: 10%;
+    }
+}
+
 .row-section2 {
     text-align: center;
     background-color: #ffffff;
 }
 
 .row-1 {
-    padding-top: 5%;
-    padding-bottom: 2%;
+    padding-top: 5% 0 2% 0;
 }
 
 @media screen and (max-width:600px) {
+    .row-1>img {
+        width: 6%;
+        margin: 5% -5% 2% 0;
+    }
     .exlu {
         display: none;
     }
@@ -117,6 +166,12 @@ a {
     padding-bottom: 2%;
 }
 
+@media screen and (max-width:600px) {
+    .row-pi>p {
+        font-size: 15px;
+    }
+}
+
 .row-2>h1 {
     font-weight: lighter;
     font-family: Raleway, Arial, sans-serif;
@@ -125,12 +180,36 @@ a {
 .row-3 {
     display: flex;
     margin-top: 10%;
+    padding-bottom: 5%;
     background-repeat: no-repeat;
     background-image: url(../img/map_bg.png);
 }
 
+@media screen and (max-width:600px) {
+    .row-3 {
+        display: block;
+    }
+    .col>#img {
+        width: 50%;
+    }
+}
+
 .row-3-1 {
-    padding: 5%;
+    padding: 0 20% 0 20%;
+}
+
+@media screen and (max-width:600px) {
+    .row-3-1>h3>img {
+        width: 15%;
+    }
+    .row-3-1>h3 {
+        font-size: 15px;
+        font-weight: bolder !important;
+    }
+    .row-3-1>p {
+        font-size: 13px !important;
+        color: #000000 !important;
+    }
 }
 
 .row-3-1>h3 {
@@ -139,6 +218,17 @@ a {
 
 .row-3-1>p {
     font-size: 20px;
+}
+
+@media screen and (max-width:600px) {
+    .row-4>p {
+        font-size: 21px !important;
+        padding: 0 9.5% 0 9.5% !important;
+        color: #ffffff!important;
+    }
+    .row-4>img {
+        width: 20%!important;
+    }
 }
 
 .row-4 {
@@ -153,6 +243,24 @@ a {
 
 .row-4>p {
     font-size: 30px;
+    padding: 0 20% 0 20%;
+}
+
+@media screen and (max-width:600px) {
+    .row-5>h1 {
+        padding: 5% 0% 5% 0% !important;
+        font-weight: lighter;
+        font-family: Raleway, Arial, sans-serif;
+    }
+    .figure {
+        display: block;
+        padding-left: 12%;
+        width: 85% !important;
+    }
+    .figure-caption {
+        color: #000000;
+        font-weight: bolder !important;
+    }
 }
 
 .row-5 {
@@ -169,6 +277,19 @@ a {
 
 .figure {
     width: 25%;
+}
+
+@media screen and (max-width:600px) {
+    .rows {
+        padding: 15% 15% 0% 15%;
+        display: block !important;
+        font-weight: lighter;
+        font-family: Raleway, Arial, sans-serif;
+        background-color: #ffffff;
+    }
+    .rows>.col>p {
+        color: #000000 !important;
+    }
 }
 
 .rows {
