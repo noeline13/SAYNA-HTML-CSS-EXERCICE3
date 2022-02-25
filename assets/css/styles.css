@@ -433,9 +433,10 @@
                 justify-content: space-between;
                 background-color: #ffffff;
             }
-            /* .image {
-                margin-right: 20%;
-            }*/
+            
+            .image {
+                margin-right: 10%;
+            }
             
             .icon {
                 padding-left: 38%;
