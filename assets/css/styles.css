@@ -282,10 +282,6 @@
                     font-family: Raleway, Arial, sans-serif;
                     background-color: #ffffff;
                 }
-                .col>p {
-                    padding: 0;
-                    color: #000000!important;
-                }
                 .tests {
                     order: 2;
                 }
@@ -303,6 +299,9 @@
                 }
                 .dir {
                     direction: rtl;
+                }
+                .tests>p {
+                    color: #000!important;
                 }
             }
             
@@ -327,8 +326,12 @@
                 margin-left: -46%;
             }
             
+            .test {
+                padding-left: 20%;
+            }
+            
             .tests {
-                padding-left: 10%;
+                padding-left: 3%;
             }
             
             .tests>p {
@@ -377,10 +380,10 @@
                     color: #000000!important;
                 }
                 .image>img {
-                    text-align: start;
                     width: 25%;
-                    padding: 5% 0 0 10% !important;
+                    text-align: start;
                     margin: 0 5% 0 0% !important;
+                    padding: 5% 0 0 10% !important;
                 }
             }
             
@@ -409,16 +412,16 @@
                     text-align: center;
                 }
                 .fot .image {
-                    display: flex;
                     padding: 0;
+                    display: flex;
                 }
             }
             
             .fot {
-                text-align: center;
-                justify-content: space-between;
                 display: flex;
                 padding-top: 2%;
+                text-align: center;
+                justify-content: space-between;
                 background-color: #ffffff;
             }
             
