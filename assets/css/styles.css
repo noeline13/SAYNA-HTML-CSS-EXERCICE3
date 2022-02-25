@@ -154,7 +154,7 @@
             }
             
             .row-1>img {
-                margin: 28px;
+                margin: 20px;
             }
             
             .row-2 {
@@ -254,6 +254,7 @@
                     width: 85% !important;
                 }
                 .figure-caption {
+                    margin-right: 3% !important;
                     color: #000000;
                     font-weight: bolder !important;
                 }
@@ -273,6 +274,12 @@
             
             .figure {
                 width: 25%;
+            }
+            
+            .figure-caption {
+                font-weight: bolder;
+                color: #000;
+                margin-right: 50%;
             }
             
             @media screen and (max-width:600px) {
@@ -300,7 +307,7 @@
                 .dir {
                     direction: rtl;
                 }
-                .tests>p {
+                .row-6>.tests>p {
                     color: #000!important;
                 }
             }
@@ -343,14 +350,18 @@
             }
             
             @media screen and (max-width:600px) {
-                .foot,
-                .fot {
+                .foot {
                     padding-top: 20%;
                     display: block;
                 }
                 .fot {
-                    text-align: start!important;
+                    text-align: center!important;
                     display: block !important;
+                }
+                .fot>.image {
+                    padding: 0;
+                    display: flex;
+                    margin: 0 !important;
                 }
                 #cap {
                     font-size: 15px;
@@ -376,14 +387,16 @@
                     text-align: center;
                 }
                 .copy {
-                    padding: 0% 0 0 9%;
                     color: #000000!important;
                 }
                 .image>img {
                     width: 25%;
-                    text-align: start;
+                    text-align: center;
                     margin: 0 5% 0 0% !important;
                     padding: 5% 0 0 10% !important;
+                }
+                .col p {
+                    color: #000;
                 }
             }
             
@@ -411,10 +424,6 @@
                 .contact>p {
                     text-align: center;
                 }
-                .fot .image {
-                    padding: 0;
-                    display: flex;
-                }
             }
             
             .fot {
@@ -424,10 +433,9 @@
                 justify-content: space-between;
                 background-color: #ffffff;
             }
-            
-            .image {
+            /* .image {
                 margin-right: 20%;
-            }
+            }*/
             
             .icon {
                 padding-left: 38%;
