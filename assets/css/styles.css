@@ -307,8 +307,17 @@
                 .dir {
                     direction: rtl;
                 }
-                .row-6>.tests>p {
+                .test>p {
                     color: #000!important;
+                    font-size: 16px !important;
+                    text-align: center !important;
+                    padding: 10% 0 0 2% !important;
+                }
+                .tests>p {
+                    color: #000!important;
+                    font-size: 16.5px !important;
+                    text-align: center !important;
+                    padding: 10% 0 0 1% !important;
                 }
             }
             
@@ -334,7 +343,13 @@
             }
             
             .test {
-                padding-left: 20%;
+                padding-left: -15%;
+            }
+            
+            .test>p {
+                text-align: start;
+                padding: 12% 0 0 20%;
+                font-family: Raleway, Arial, sans-serif;
             }
             
             .tests {
@@ -342,6 +357,8 @@
             }
             
             .tests>p {
+                text-align: start;
+                padding: 12% 0 0 0;
                 font-family: Raleway, Arial, sans-serif;
             }
             
@@ -364,27 +381,36 @@
                     margin: 0 !important;
                 }
                 #cap {
-                    font-size: 15px;
+                    margin: 0%;
+                    font-size: 17px;
+                    padding: 4% 5% 0 5%;
                     text-align: center !important;
                     color: #000000 !important;
-                    margin: 0%;
                 }
                 #sayna {
-                    padding-left: 10%;
                     width: 80%;
+                    padding-left: 10%;
                 }
                 .info {
                     text-align: center;
-                    padding: 5% 0 5% 27%;
+                    padding: 5% 0 5% 32%;
+                }
+                .info>h2 {
+                    padding-bottom: 6% !important;
                 }
                 .info>ul>li {
                     color: #000000;
+                    text-align: start !important;
                 }
                 .contact {
                     text-align: center;
                 }
+                .contact>h2 {
+                    padding-bottom: 4% !important;
+                }
                 .contact>p {
                     text-align: center;
+                    color: #000000 !important;
                 }
                 .copy {
                     color: #000000!important;
@@ -418,12 +444,6 @@
             
             .contact>p {
                 font-size: 16px;
-            }
-            
-            @media screen and (max-width:600px) {
-                .contact>p {
-                    text-align: center;
-                }
             }
             
             .fot {
