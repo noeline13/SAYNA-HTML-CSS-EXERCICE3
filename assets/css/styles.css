@@ -19,6 +19,10 @@
                 }
             }
             
+            .h {
+                border-bottom: #777 1px solid;
+            }
+            
             .row {
                 margin: 0%;
                 padding: 3%;
@@ -51,7 +55,7 @@
             /*main*/
             
             .row-section1 {
-                margin: 0.1% 0 0 0;
+                margin: 0 0 0 0;
                 text-align: center;
                 background-color: #000000;
             }
@@ -245,14 +249,18 @@
             
             @media screen and (max-width:600px) {
                 .row-5>h1 {
-                    padding: 5% 0% 5% 0% !important;
+                    padding: 5% 9% 5% 0% !important;
+                    font-size: 25px;
                     font-weight: lighter;
                     font-family: Raleway, Arial, sans-serif;
                 }
                 .figure {
                     display: block;
                     padding-left: 12%;
-                    width: 85% !important;
+                    width: 80% !important;
+                }
+                .figure>img {
+                    width: 60% !important;
                 }
                 .figure-caption {
                     margin-right: 3% !important;
